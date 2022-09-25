@@ -3,11 +3,11 @@ var nameInputEl = document.querySelector('#username');
 var repoContainerEl = document.querySelector('#repos-container');
 var repoSearchTerm = document.querySelector('#repo-search-term');
 
-// // const docx = require("docx");
+
+const docx = require("docx");
+
 // import * as docx from "docx";
 var testEl = document.querySelector('#testbtn');
-
-
 
 
 var formSubmitHandler = function(event) {
@@ -99,10 +99,16 @@ var displayRepos = function(repos, searchTerm) {
 // add event listeners to forms
 userFormEl.addEventListener('submit', formSubmitHandler);
 
+const docx = require("docx");
 
-var testfunction = function() {
-    
+var testfunction = function(event) {
+  event.preventDefault();
+
+
+  console.log('test worked');
   alert('test worked');
+
+  
 
 
 };
