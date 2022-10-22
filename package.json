@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "docx": "^7.5.0"
+    "docx": "^7.5.0",
+    "python-shell": "^3.0.1"
   }
 }
